@@ -1,0 +1,13 @@
+# Never commit Hermes secrets or runtime state, even if copied here by hand
+.env
+.env.*
+auth.json
+*.lock
+*.db
+*.db-*
+*.pid
+logs/
+sessions/
+cache/
+audio_cache/
+image_cache/
